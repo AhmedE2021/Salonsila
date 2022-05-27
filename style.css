@@ -1,0 +1,253 @@
+
+/* ..............gallery page start............ */
+/* header section */
+/* Mobile first */
+
+/* our gallery heading and lines */
+.wrapper2{
+  width: 100%;
+  height:35vh;
+  background: url(/images/book-banner.png)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+
+.gallery-page-header-lines{
+  display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ }
+ .gallery-page-lines{
+ border-bottom: #fff solid 2px;
+ width: 15%;
+ padding-top: 35%;
+ }
+ .gallery-page-header{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  padding-top: 87%;
+  }
+
+/* paper tear and Degular Display Black headline - talking hair text  */
+
+.paper{
+  background-image: url(/images/paper.png);
+       width: 100%;
+  background-size: cover;
+ margin-top: -18%;
+ margin-bottom: -10%;
+ z-index: 2;
+}
+.green-paper{
+  background-image: url(/images/greenpaper.png);
+  width: 100%;
+  background-size: cover;
+  margin-top: -20%;
+  padding-top: 20%;
+}
+.gal-heading {
+padding: 20% 5% 20% 5%;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-size: 20px;
+  width: 80%;
+}
+
+ /*  meet our team - lines and heading  */
+
+  .gallery-page-header-lines-b{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+ padding-top: 5%;
+ padding-bottom: 2%;
+   }
+  .gallery-page-lines-b{
+    border-bottom: rgb(31, 31, 31) solid 2px;
+    width: 15%;
+    padding-top: 5%;
+    
+    }
+
+.gallery-page-header-b{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(22, 22, 22);
+  padding-top: 17%;
+  
+  }
+  .g-img-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: baseline;
+    padding: 0;
+    background-color:#203836;
+  }
+  .work-img1{
+    width: 60%;
+    margin-left: 40%;
+    padding-top: 11%;
+  }
+.work-img2{
+  width: 55%;
+margin-top: -20%;
+}
+.work-img3{
+ width: 50%;
+ margin-left: 64%; 
+ margin-top:-34% ;
+}
+.work-img4{
+  width: 50%;
+  margin-left: 2%;
+  margin-top:-40% ;
+}
+.work-img5{
+  width: 70%;
+padding-bottom: 5%;
+margin-top: -74%;
+
+}
+
+.work-img6{
+  margin-left: 111%;
+  width: 80%;
+margin-top: 20%;
+}
+
+.staff-img{
+  width: 80%;
+
+}
+.staff-name-para{
+width: 80%;
+}
+/* flexbox container of staff people */
+.flex {
+
+ margin-top: 5%;
+ margin-left: 18%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: baseline;
+
+  }
+  
+  /* flexbox container of the text under the staff */
+  .flex-in {
+  padding-top: 1%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: baseline;
+  }
+
+  .paper_sec_wrapper{
+    display:flex ;
+    flex-direction:column ;
+  }
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+ 
+  .gallery-page-header{
+font-size: 25px;
+margin-top: -40%;
+  }
+.gallery-page-lines{
+width: 25%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: -28%;
+}
+.paper{
+ 
+ margin-bottom: -3%; 
+ margin-top: -4%;
+}
+
+.gal-heading{
+  padding: 10% 5% 10% 5%;
+  font-size: 40px;
+}
+
+.work-img1{
+  width: 80%;
+  padding-top: 10%;
+}
+.work-img2 {
+  width: 80%;
+ margin-left: -250%;
+ margin-top: 64%;
+}
+.work-img3{
+  width: 90%;
+ margin-left:330% ;
+  margin-top: -150%;
+}
+
+.work-img4{
+  width: 70%;
+margin-left: -20%;
+margin-top: 10%;
+height: 70%;
+}
+
+.work-img5{
+  width: 90%;
+  margin-left: 200%;
+  margin-top:-110%;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+}
+.image6{
+  display: none;
+}
+/* meet our team section */
+
+.flex{
+  flex-direction: row;
+  margin-left: 5%;
+
+}
+
+.gallery-page-lines-b{
+  width: 25%;
+  margin-left: 5%;
+margin-right: 5%;
+margin-top: -3%;
+}
+
+.gallery-page-header-b{
+  font-size: 25px;
+}
+
+}
+
+
+
+
+
+
+
+/* ................gallery page end...............
+
+
+
+
