@@ -386,3 +386,831 @@ margin-top: -3%;
 
 
 
+/* ...............Book-page-1-start......... */
+
+/* header-section start */
+/* mobile first */
+.wrapper{
+  width: 100%;
+  height:35vh;
+  background: url(/images/book-banner.jpg)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.book-page-header-lines{
+ display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.book-page-lines{
+border-bottom: #fff solid 2px;
+width: 15%;
+padding-top: 33%;
+}
+
+
+  
+.book-page-header{
+font-family: roc-grotesk-wide, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 20px;
+text-align: center;
+color: #fff;
+padding-top: 66%;
+}
+
+.book-page-content{
+background-color:#F9FAFA;
+margin-top: -8.97%;
+margin-bottom: -4.6%;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+ 
+ 
+
+  .book-page-header{
+font-size: 25px;
+margin-top: -8%;
+  }
+.book-page-lines{
+width: 25%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: -23%;
+}
+
+}
+/* header-section end */
+
+
+/* process icon section start */
+/* MOBILE FIRST */
+.book-head-icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+ padding-left: 11%;
+  margin-top: 9%;
+  padding-top: 1%;
+}
+.book-icons-header{
+  font-size: 10px;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family:'PT', sans-serif;
+}
+.book-head-icons-line{
+  border-bottom: 2px goldenrod solid;
+  width: 10%;  
+}
+
+/* intro text section */
+.book-intro-text-section{
+margin: 5%;
+}
+
+.book-intro-text{
+  font-family:'PT', sans-serif;;
+  font-size: 20px;
+  
+}
+/* From uiverse.io by @satyamchaudharydev */
+.booking-ctn-btn {
+  --primary-color: #111;
+  --secondary-color: #fff;
+  --hover-color: #111;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+  font-family: roc-grotesk-wide, sans-serif;
+  
+}
+
+.booking-ctn-btn .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-ctn-btn .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+.booking-ctn-btn .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.booking-ctn-btn:hover {
+  background-color: var(--hover-color);
+  text-decoration: none;
+  color: #fff;
+}
+
+.booking-ctn-btn:hover .arrow {
+  background: var(--secondary-color);
+}
+
+.booking-ctn-btn:hover .arrow:before {
+  right: 0;
+}
+
+   
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+  
+  .book-head-icons{
+    padding-left: 18%;
+  }
+  
+  .book-icons-header{
+    font-size: 20px;
+   
+    font-family:'PT', sans-serif;
+    
+  }
+
+
+  .book-head-icons-line{
+width: 20%;
+  }
+  .iconify{
+    font-size: 25px;
+  }
+  .book-intro-text-section{
+margin-top: 3%;
+margin-left: 10%;
+    }
+    
+    .book-intro-text{
+      font-family:'PT', sans-serif;;
+      font-size: 30px;
+   
+    }   
+
+}
+
+
+/* CHECKLIST SECTION */
+/* MOBILE FIRST */
+.book-page-flexbox{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+  
+}
+.container { 
+ 
+flex: 60%;
+  height: 400px; 
+  overflow-y: scroll;
+  padding: 1%;
+  margin-bottom: 5%;
+  font-family: roc-grotesk-wide, sans-serif;
+}
+.summaryandcontinue{
+  display: flex;
+  flex-direction: column;
+  flex: 40%;
+  padding-left: 15%;
+
+}
+.summarybox{
+  border:2px solid #ccc;
+  box-shadow:2px 2px #fff ;
+  flex: 40%;
+  margin-bottom: 20%;
+  background-color: #FFFFFF;
+  width: 80%;
+  
+ 
+}
+.summary-box-header{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ text-align: center;
+ align-items: center;
+ font-size: 20px;
+ padding: 2%;
+ color: #767676;
+}
+.summary-box-para{
+  color: #767676;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:15px ;
+  text-align: center;
+}
+.summary-box-price{
+  color: #000;
+  border-top: 1px solid #767676;
+  width: 70%;
+  margin-left: 14%;
+}
+.continuebox{
+  flex: 40%;
+margin-left: 10%;
+  font-family: roc-grotesk-wide, sans-serif;
+  width: 60%;
+  text-align: center;
+  padding: 3%;
+ margin-bottom: 5%;
+}
+/* .continuebtn{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background-color: #3C3C3C;
+  padding:5% 10% 5% 10%;
+} */
+/* .continuebtn:hover{
+  text-decoration: none;
+  color: goldenrod;
+} */
+
+
+
+.input-text-bor input:checked ~ .checkmark {
+  background-color: #000;
+}
+
+
+
+
+
+.slist{
+  font-family: roc-grotesk-wide, sans-serif;
+  
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 3%;
+  margin-bottom: 1%;
+ 
+  border-radius: 50%;
+ 
+  }
+
+
+  .input-text-bor{
+    border: 2px solid goldenrod;
+    border-radius: 2%;
+    padding-left: 2%;
+  
+    font-size: 15px;
+   
+  }
+  .input-text-bor input {
+    height: 20px;
+    width: 20px;
+background-color: #ccc;
+
+  }
+  input:checked ~ .input-text-bor{
+    background-color: #000;
+    
+  }
+
+  .goldenrodBackground{
+    background-color:goldenrod;
+    }
+
+    
+ 
+  
+
+.goldenrod{
+  background-color: goldenrod;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+  .book-page-flexbox{
+    flex-direction: row;
+  }
+  .container{
+    flex: 50%;
+  }
+  .summaryandcontinue{
+    flex: 50%;
+    margin-top: -10%;
+  }
+.continuebox{
+max-height: 17%;
+  font-size: 20px;
+  padding-top: 5%;
+
+}
+.continuebtn{
+  text-align: center;
+}
+}
+
+/* ...............Book-page-1-end......... */
+
+
+
+
+
+
+
+
+
+
+
+/* ...............Book-page-2-start......... */
+/* MOBILE FIRST */
+.book-page2-content{
+  background-color:#F9FAFA ;
+  margin-top: -10%;
+  margin-bottom: -5%;
+}
+.hairdresser-time-date{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hairdresserbox{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.a:hover{
+  text-decoration: none;
+}
+
+.img-pick-label{
+  display: flex;
+  flex-direction: row;
+  border:1px solid #fff ;
+  border-radius: 3%;
+  background-color: #fff;
+  width: 140%;
+  margin-left: -20%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 5%;
+  }
+  
+  button:focus{
+    background-color:#000;
+    color: goldenrod;
+   }
+
+.img-picker{
+width: 3.5rem;
+height: 3.5rem;
+margin-left: 5%;
+}
+
+.hairdressername{
+  width: 30%;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 3%;
+
+}
+.hairdresserbtn{
+  width: 30%;
+  height: 40%;
+  background-color: goldenrod;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin-right: 5%;
+  color: #000;
+  border-radius: 9px;
+}
+
+.dateandtimebox{
+  display: flex;
+justify-content: space-between;
+width: 95%;
+margin: 3%;
+}
+.datebox{
+border: 2px solid #fff;
+background-color: #fff;
+border-radius: 3%;
+font-family: roc-grotesk-wide, sans-serif;
+padding: 3%;
+width: 40%;
+}
+.timebox{
+  border: 2px solid #fff;
+background-color: #fff;
+border-radius: 3%;
+  font-family: roc-grotesk-wide, sans-serif;
+  padding: 3%;
+  width: 40%;
+}
+.datime-text{
+  font-size: 15px;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+  
+
+  
+  .summaryandcontinue{
+    width: 30%;
+  }
+  .hairdresser-time-date{
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -2%;
+    margin-bottom: 2%;
+
+  }
+.hairdresserbox{
+flex-direction: column;
+padding-left: 10%;
+width: 50%;
+}
+
+.dateandtimebox{
+
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+
+}
+.img-picker{
+width: 5rem;
+height: 5rem;
+
+}
+
+
+.img-pick-label{
+  margin: 2%;
+
+
+}
+.datebox{
+  padding-right: 100%;
+  margin-bottom: 5%;
+
+}
+.timebox{
+  padding-right: 100%;
+}
+
+
+}
+
+
+
+/* ...............Book-page-2-end......... */
+
+
+
+
+
+
+
+
+
+
+/* ...............Book-page-3-start......... */
+/* MOBILE FIRST */
+/* From uiverse.io by @alexruix */
+.book3-page-content{
+  background-color:#F9FAFA;
+  margin-top: -9%;
+}
+
+
+.book3-flexbox{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+.customerform{
+  display: flex;
+  flex-direction: column;
+
+ align-items: center;
+ margin-bottom: 10%;
+}
+
+.customerctc {
+  line-height: 28px;
+  border: 2px solid transparent;
+  border-bottom-color: #777;
+  padding: .2rem 0;
+  outline: none;
+  background-color: transparent;
+  color: #0d0c22;
+  transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin: 3%;
+ }
+ 
+ .customerctc:focus, .customerctc:hover {
+  outline: none;
+  padding: .2rem 1rem;
+  border-radius: 1rem;
+  border-color: #7a9cc6;
+ }
+ 
+ .customerctc::placeholder {
+  color: #777;
+ }
+ 
+ .customerctc:focus::placeholder {
+  opacity: 0;
+  transition: opacity .3s;
+ }
+ 
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+
+.book3-flexbox{
+flex-direction: row;
+width: 90%;
+}
+
+.customerctc{
+  width: 60%;
+}  
+
+.customerform{
+  width: 60%;
+}
+
+}
+
+/* ...............Book-page-3-finish......... */
+
+/* ...........BOOK-PAGE-4-STARTS............. */
+/* .....Mobile first layout..... */
+.book4-body{
+background-color: #F9FAFA;
+padding-top: 6%;
+padding-bottom: 6%;
+}
+.book4-content{
+  margin: 1% 10% 5% 10%;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  text-align: center;
+
+}
+.book-head-icons4{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+margin-bottom: 10%;
+margin-top: 3%;
+padding-top: 5%;
+border-bottom: 1px solid #333333;
+margin-left: 8%;
+width: 85%;
+padding-bottom: 5%;
+}
+
+.icon-book4 {
+margin-left: 10%;
+}
+
+.book-icons-header4{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  color: #448A37;
+margin-bottom: -1%;
+margin-left: 3%;
+
+}
+
+.book4-flex-box{
+
+  border-bottom: 1px solid #333333;
+  margin-left: 8%;
+  width: 85%;
+  padding: 5% 0 5% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.book4-flex-box-{
+  border-bottom: none;
+}
+
+.book4-sub-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.book4-text1{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-size: 10px;
+  width: 70%;
+}
+.fa-tag4{
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
+.book4-social{
+  margin-top:5%;
+  width: 90%;
+}
+.book4-contact{
+  font-size: 13px;
+  font-family: roc-grotesk-wide, sans-serif;
+  margin-top: 2%;
+
+}
+.book4-text2{
+  font-family: roc-grotesk-wide, sans-serif;
+  color: #939393;
+  font-size: 8px;
+}
+.book4-text3{
+  font-family: roc-grotesk-wide, sans-serif;
+  color: #050101;
+  font-size: 11px;
+}
+.book4-btn1{
+  color:#F0CA75;
+  font-family: roc-grotesk-wide, sans-serif;
+  padding: 2% 8% 2% 2%;
+  background-color: white;
+  cursor: pointer;
+  border-color: #F0CA75;
+  border-radius: 9px;
+  border-style: solid;
+  font-size: 15px;
+}
+.book4-text4{
+  font-family: roc-grotesk-wide, sans-serif;
+  color: #939393;
+  font-size: 14px;
+}
+.book4-text5{
+  font-family: roc-grotesk-wide, sans-serif;
+  color: #050101;
+  font-size: 16px;
+}
+.book4-btn2{
+  color:#C54841;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-size: 15px;
+  padding: 2% 8% 2% 2%;
+  background-color: white;
+  cursor: pointer;
+  border-color: #C54841;
+  border-radius: 9px;
+  border-style: solid; 
+}
+
+
+
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+.book-icons-header4{
+  font-size: 25px;
+  margin-left: 5%;
+}
+.icon-book4{
+  margin-left: 30%;
+}
+.book4-text1{
+  width: 100%;
+  font-size: 18px;
+ text-align: left;
+ margin-left: 2%;
+}
+
+.book-flex-box4{
+  flex-direction: row;
+}
+
+
+.book4-body{
+  margin-top: -12%;
+}
+.img-book4{
+  margin-top: -12%;
+}
+.book4-social{
+width: 40%;
+margin-left: 45%;
+margin-top: -10%;
+}
+.book4-contact{
+  font-size: 15px;
+}
+.multi-icon{
+  font-size: 20px;
+}
+.book4-text2{
+font-size: 12px;
+}
+.book4-text3{
+  font-size: 17px;
+  width: 100%;
+}
+.book4-text4{
+  font-size: 15px; 
+}
+.book4-text5{
+  font-size: 18px;
+}
+.book4-btn1{
+font-size: 20px;
+
+}
+.book4-btn2{
+  font-size: 20px;
+  padding-bottom: -10px;
+}
+.btn-flex{
+  width: 40%;
+  height: 90%;
+}
+.date-box4{
+margin-left: 15%;
+width: 75%;
+}
+.service-box4{
+  margin-left: 75%;
+  width: 70%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ...........BOOK-PAGE-4-ENDS............. */
