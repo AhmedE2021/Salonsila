@@ -1214,3 +1214,41 @@ width: 75%;
 
 
 /* ...........BOOK-PAGE-4-ENDS............. */
+
+/* error404 page  */
+/* Mobile first  */
+.error-header{
+font-size: 40px;
+text-align: center;
+margin-bottom: 20%;
+font-family: roc-grotesk-wide, sans-serif;}
+
+.error-header2{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20%;
+  font-family: roc-grotesk-wide, sans-serif;
+}
+.error{
+  align-items: center;
+}
+}
+.errorbox{
+  margin-left: 7%;
+}
+.img-error{
+width: 50%;
+align-items: center;
+margin-left: 25%;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+.error-header{
+font-size: 95px;
+margin-bottom: 1%;
+}
+.error-header2{
+font-size: 65px;
+margin-bottom: 1%;
+}
