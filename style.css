@@ -1252,3 +1252,163 @@ margin-bottom: 1%;
 font-size: 65px;
 margin-bottom: 1%;
 }
+
+  
+  /* FOOTER START */
+/* Mobile  First */
+
+
+.footer-section{
+
+  background-color: #1C2B2A;
+  width: 100%;
+  display: flex;
+padding-top:4%;;
+flex-direction: column;
+
+}
+
+.footer-right-side{
+ 
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+.footer-header{
+ color: goldenrod;
+ font-family:'PT', sans-serif;;
+ font-weight: bold;
+ font-size: 25px;
+ padding-left: 20px;
+ padding-top: 5px;
+margin-bottom: 3%;
+margin-top: 5%;
+}
+.footer-text{
+  font-family:'PT', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top: 5px;
+
+}
+
+.clickable:hover{
+  color: goldenrod;
+  text-decoration: none;
+}
+.footer-right-side-row1{
+  
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-right-side-row2{
+  
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-right-side-box4{
+  
+margin-bottom: 5px;
+  
+  }
+
+.fa-facebook,.fa-instagram{
+  color: #fff;
+  padding-left: 25px;
+ 
+}
+.fa{
+  color: #fff;
+}
+
+
+
+.footer-data{
+  background-color: #1C2B2A;
+  display: flex;
+  font-family:'PT', sans-serif; 
+  font-size: 10px;
+  color: #fff;
+  justify-content: space-around;
+  padding-top: 5px;
+  border-top: #fff solid 0.1px;
+
+}
+.footer-policy-terms-text{
+  color: #FFFFFF;
+}
+.footer-policy-terms-text:hover{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.mapouter
+{position:relative;text-align:right;height:305px;width:387px;}
+.gmap_canvas
+{overflow:hidden;background:none!important;height:280px;width:370px;padding-left:2%;align-items: center;}
+
+
+@media(max-width:786px){
+  .footer-right-side-box2{
+   display: none;
+     }
+}
+
+/* Desktop VERSION */
+@media (min-width: 786px){
+
+
+  .footer-section{
+   
+ flex-direction: row-reverse;
+height: 10%;
+}
+.footer-right-side{
+  flex-direction: row;
+ flex: 50%;
+}
+.footer-left-side{
+ flex: 50%;
+ padding-left: 10%;
+}
+
+.footer-right-side-box1,.footer-right-side-box2,.footer-right-side-box3,.footer-right-side-box4{
+  flex: 25%;
+  
+  }
+
+.footer-text{
+margin: 16px;
+}
+.footer-right-side-box3{
+  margin-top: 4%;
+}
+.footer-right-side-box4{
+  margin-top: 4%;
+}
+
+iframe{
+  height: 215px;
+ 
+}
+.mapouter{
+  width: 350px;
+}
+
+
+}
+
+
+/* FOOTER END */
+/* ...........INDEX PAGE END............ */
+
+
+
+
+
+
