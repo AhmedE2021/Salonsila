@@ -844,15 +844,22 @@ padding-right: 30%;
     }
     .see_our_work{
       width: 100%;
-/* ..............gallery page start............ */
+
+      
+      
+      
+      
+      
+      
+      /* ..............gallery page start............ */
 /* header section */
 /* Mobile first */
 
 /* our gallery heading and lines */
 .wrapper2{
   width: 100%;
-  height:35vh;
-  background: url(/images/book-banner.png)
+  height:40vh;
+  background: url(/images/book-banner.jpg)
     no-repeat 50% 50%;
   background-size: cover;
 }
@@ -887,7 +894,7 @@ padding-right: 30%;
   background-size: cover;
  margin-top: -18%;
  margin-bottom: -10%;
- z-index: 2;
+ z-index: 4;
 }
 .green-paper{
   background-image: url(/images/greenpaper.png);
@@ -904,7 +911,14 @@ padding: 20% 5% 20% 5%;
 }
 
  /*  meet our team - lines and heading  */
+ .our-team-section{
+   background-image: url(/images/bg.jpg);
+   background-size: cover;
 
+
+background-position:top;
+  padding-top: 10%;
+ }
   .gallery-page-header-lines-b{
    display: flex;
    flex-direction: row;
@@ -936,7 +950,10 @@ padding: 20% 5% 20% 5%;
     align-content: center;
     align-items: baseline;
     padding: 0;
-    background-color:#203836;
+    background-image: url(/images/ourteambgdown.png);
+    background-size: cover;
+    padding-bottom: 25%;
+    margin-bottom: -30%;
   }
   .work-img1{
     width: 60%;
@@ -970,12 +987,45 @@ margin-top: -74%;
 margin-top: 20%;
 }
 
+.follow-us-img{
+  height: 5rem;
+  padding-left: 69%;
+  margin-top: -20%;
+}
+.follow-us-text{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 300;
+  color: #88A09E;
+  padding-left: 3%;
+ font-size: 15px;
+}
+.follow-us-text1{
+font-weight: 800;
+color: #88A09E;
+
+}
+.follow-us-text1:hover{
+  text-decoration: none;
+  color: #88A09E;
+}
+.follow-us-text2{
+  color: #88A09E;
+  text-decoration: underline;
+}
 .staff-img{
   width: 80%;
 
 }
 .staff-name-para{
 width: 80%;
+font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 300;
+  margin-bottom: 10%;
+}
+.staff-name{
+  margin-top: 2%;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 800;
 }
 /* flexbox container of staff people */
 .flex {
@@ -1010,17 +1060,20 @@ width: 80%;
 
 /* DESKTOP VERSION */
 @media (min-width: 786px){
- 
+  .our-team-section{
+    padding-top: 20%;
+  }
   .gallery-page-header{
 font-size: 25px;
-margin-top: -40%;
+margin-top: -18%;
   }
 .gallery-page-lines{
 width: 25%;
 margin-left: 5%;
 margin-right: 5%;
-margin-top: -28%;
+margin-top: -25%;
 }
+
 .paper{
  
  margin-bottom: -3%; 
@@ -1064,14 +1117,35 @@ height: 70%;
 .image6{
   display: none;
 }
+.follow-us-img{
+  height: 10rem;
+  padding-left: 80%;
+}
+.follow-us-text{
+  margin-top: 2%;
+  font-size: 25px;
+  width: 100%;
+}
+
 /* meet our team section */
 
 .flex{
   flex-direction: row;
-  margin-left: 5%;
+ width: 100%;
+margin-left: -.6%;
 
 }
+.flex-sub{
+width: 20%;
 
+}
+.staff-img {
+  
+  width: 100%;
+}
+.staff-name-para{
+  width: 100%;
+}
 .gallery-page-lines-b{
   width: 25%;
   margin-left: 5%;
@@ -1091,11 +1165,13 @@ margin-top: -3%;
 
 
 
-/* ................gallery page end...............
+/* ................gallery page end.....
 
 
 
-
+      
+      
+      
 /* ...............Book-page-1-start......... */
 
 /* header-section start */
