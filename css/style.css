@@ -1,0 +1,2408 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://use.typekit.net/ben0hjr.css");
+@import url("https://use.typekit.net/ben0hjr.css");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+
+}
+
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  background-color: #F9FAFA;
+}
+
+
+
+/* ...........INDEX PAGE START............ */
+
+/* header start  */
+
+
+
+.header {
+  width: 100%;
+  height: 80vh;
+  background: url(/images/banner.jpg)
+    no-repeat 50% 50%;
+   
+  background-size: cover;
+
+
+}
+
+ 
+
+.logo {
+border: goldenrod 2px solid;
+border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10PX;
+
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  z-index: 5;
+}
+
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: degular, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+}
+nav ul li a:hover{
+  color: goldenrod;
+}
+
+.nav-l{
+  float: left;
+  padding-left:5%;
+}
+.nav-r{
+  padding-right:5%; 
+}
+
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+.icon-phone{
+
+padding: 5px;
+
+}
+
+.icon-phone:hover{
+ 
+
+  text-decoration: none;
+}
+
+.fa.fa-tag{
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: goldenrod;
+}
+
+
+  
+
+.dt-book-button{
+  border: 2px solid goldenrod;
+  
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  padding: 14px 20px 16px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.75;
+  transition: transform 200ms,background 200ms;
+  background: transparent;
+  color: goldenrod;
+  box-shadow: 0 0 0 3px goldenrod inset;
+
+}
+
+
+.dt-book-button:hover{
+  background-color:goldenrod; 
+  color: #000000;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+.home-button,.gallery-page-active,.book-page-active{
+  color: goldenrod;
+}
+.home-page-intro-mb{
+  padding-top: 10%;
+  
+}
+.home-page-intro-header{
+padding-left: 5%;
+color: #fff;
+font-family: roc-grotesk-wide, sans-serif;
+font-weight: 700;
+font-size: 70px;
+}
+.home-page-intro-header2{
+  padding-left: 5%;
+  color: #fff;
+  font-family: roc-grotesk-wide, sans-serif;
+font-weight: 300;
+
+}
+
+.home-page-intro-btn{
+  border: 2px solid goldenrod;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  padding: 14px 20px 16px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.75;
+  transition: transform 200ms,background 200ms;
+  background: goldenrod;
+  color: #fff;
+  box-shadow: 0 0 0 3px goldenrod inset;
+  font-family: degular, sans-serif;
+}
+
+.home-page-intro-btn:hover{
+  background-color:goldenrod; 
+  color: #000000;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.home-page-intro-btn-div{
+  text-decoration: none;
+  padding: 5%;
+}
+
+
+.main_section{
+  overflow-x: hidden;
+}
+.welcome_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image:url(/images/paperwzbg.png) ;
+  background-size: cover;
+  position: static;
+  margin-top: -5%;
+}
+.welcome_message{
+  padding-top: 6%;
+  padding-bottom: 2%;
+  width: 70%;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1.8em;
+  align-self: center;
+
+}
+  .welc_highl{
+      color: goldenrod;
+  }
+  .welc_highl:hover{
+   
+    color: goldenrod;
+  }
+
+.shape-img{
+  align-items: center;
+ 
+  margin-bottom: -6%;
+}
+/* MOBILE layout START */
+
+@media (max-width: 786px){
+.welcome_section{
+  margin-top: -25%;
+  padding-top: 3%;
+}
+
+  .welcome_message{
+  font-size: 20px;
+  padding-top: 20%;
+
+}
+
+.header{
+background-image: url(/images/bannermb.jpg);
+}
+
+.shape-img{
+  padding-bottom: 6%;
+height: 7rem;
+}
+
+.body{
+  overflow-x: hidden;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+                               /* <---- -- -- | -- MAIN SECTION (HOME PAGE) --  | --  -- ---->  */
+
+
+                 /* <---- | SERVICES AND PRICES SECTION | ---->  */
+
+
+                     /* THE HEADER  */
+
+                     .serv_n_price {
+                      margin-top: 45px;
+                   
+                    
+                  }
+                  .serv_n_price_header{
+                    font-family: roc-grotesk-wide, sans-serif;
+                    width: 100%;
+                    text-align: center;
+                    font-size: 30px;
+                  }
+                  .heading_holder {
+                      display: flex;
+                      flex-direction: row;
+                      align-items: center;
+                      justify-content: space-evenly;
+                      margin-top: 30px;
+                      width: 90%;
+                      text-align: center;
+                      margin-left: 5%;
+                  }
+                  .line {
+                      width: 90%;
+                      height: 1px;
+                      border-bottom: 3px solid black;
+                      text-align: center;
+                  }
+                  .line-border{
+                    width:90%;
+                    height: 1px;
+                    border-bottom: 3px solid goldenrod;
+                  }
+                    
+                  
+                               /* <-- -- | THE CODE FOR THE PRICING TABLES | --  --> */
+                  
+                  
+
+                          
+                               .price_slider_holder{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-evenly;
+                      
+
+                            }
+                            .holder {
+                               display: flex;
+                               align-items: center;
+                               flex-direction: column;
+                               width: 100%;
+                               
+                            }
+                            .price {
+                                padding: 3px;
+                                border-bottom: 1px solid black;
+                                margin-left: 20px;
+                                font-family: roc-grotesk-wide, sans-serif;
+                                font-weight: 300;
+                            }
+                            .price-header{
+                              font-family: roc-grotesk-wide, sans-serif;
+                            }
+                            .barbering_price {
+                                display: flex;
+                                flex-direction: column;
+                                padding-left: 10%;
+                            }
+                            .small_left {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            .small_right {
+                                display: flex;
+                                flex-direction: column;
+                                margin-left: 20px;
+                            }
+                            .hair_cuting_pricing {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-evenly;
+                            }
+                            .right_side_men {
+                               display: flex;
+                               flex-direction: column;
+                              align-items: center;
+                            }
+                            .inner_part_men {
+                               display: flex;
+                               flex-direction: row;
+                               justify-content: space-evenly;
+                               align-items: center;
+                               width: 75%;
+                               margin-left: 60px;
+                            }
+                            .barbering_price {
+                               display: flex;
+                               flex-direction: row;
+                               justify-content: space-evenly;
+                               margin-right: 20px;
+                            }
+                            .listmen_wrapper {
+                               border: 2px solid black;
+                               background-color: #fff;
+                               border-radius: 525px; 
+                               width: 100%;
+                               margin-left: 12%;
+                              margin-top:-10% ;
+                               box-shadow: 15px 15px 5px rgba(48, 48, 48, 0.159);
+                              max-width: 100%;
+                              
+                            }
+                            
+                            .pricing_pic {
+                               width: 40%;
+                            height: 18rem;
+                          padding-top: 6%;
+                            }
+                            .left_side_men {
+                               display: flex;
+                               flex-direction: column;
+                               align-items: center;
+                               justify-content: space-evenly;
+                               width: 50%;
+                            }
+                           
+                              
+                            
+                            h4 {
+                              font-family: roc-grotesk-wide, sans-serif;
+                              font-weight: 800;  
+                              font-style: normal;   
+                              font-size: 35px;
+                              padding: 10px;
+                              text-align: center;
+                            
+                            }
+                            .left_side_women {
+                               display:flex;
+                               flex-direction: column;
+                               justify-content: space-evenly;
+                               height: 40%;
+                               width: 50%;
+                               margin-left: 5%;
+                              margin-right: 10%;
+                            }
+                            .right_side_women {
+                               display: flex; 
+                               flex-direction: column;
+                               height:30%;
+                               width:50%;
+                              
+                               margin-right: 20%;
+                            }
+                            .Cuts_color_holder {
+                               display: flex;
+                               flex-direction: row;
+                               flex: 50%;
+                               padding-left: 10%;
+                               width: 100%;
+                              
+                            }
+                          
+
+                            .extent_price_holder {
+                               display: flex;
+                               flex-direction: row;
+                               padding-left: 20%;
+                               width: 100%;
+                            }
+                            .brows_lashes_holder {
+                              display: flex;
+                              flex-direction: row;
+                              height: 40%;
+                              width: 100%;
+                            }
+                            .brows_lashes_small {
+                               display: flex;
+                               flex-direction: column;
+                           
+                               width: 100%;
+                            }
+                            .pic_women-sec {
+                               width: 100%;
+                          padding-left: 20%;
+                               height: 15rem;
+                            padding-top: 10%;
+                            }
+                            .barbering{
+                              padding: 10%;
+                            }
+                               /*<---- -- |  THE ACTUAL SLIDER IN THE PRICE TABLE SECTION | -- ----> */
+                            
+                            
+                               main {
+                                   margin-top: 70px;
+                               }
+                            
+                            .slider_main {
+                                width: 100%;
+                                height: 660px;
+                                position: relative;
+                                margin: 0 auto;
+                              }
+                              .slider_holder {
+                                margin-top: 20px;
+                                transition: all 0.3s ease;
+                             
+                              }
+                              .list {
+                                  display: none;
+                                  position: absolute;
+                                  width: 90%;
+                            
+                              }
+                              .main {
+                                  display: block;
+                              }
+                              .list .main {
+                                  margin-top: 1000px;
+                              }
+                              
+                            
+                              .slid_nav {
+                                  display: flex; 
+                                  flex-direction: row;
+                                  justify-content: space-evenly;
+                                  color:black;
+                                
+                                  width: 60%;
+                                 align-items: center;
+                                  margin-top:17% ;
+                                  
+                                 margin-bottom: 10%;
+                                padding-left: 40%;
+                              }
+
+                              .slidenav_item {
+                                color: #797979;
+                               width: 100%;
+                               font-family: roc-grotesk-wide, sans-serif;
+                               font-size: 25px;
+                               margin-bottom: -5%;
+
+                            }
+
+                             .flex_nav_sliders{
+                                 display: flex;
+                                 flex-direction: column;
+                                 background-image: url(/images/pricelistbg.png);
+                                 background-size: cover;
+                                 width: 100%;
+                    margin-top: -10%;
+                             }
+                             
+                             .inner_part_women{
+                                width: 100%;
+                       
+                            }
+                
+                  
+                                        /* <-- -- | OUR TEAM AND WORK SECTION | -- -->  */
+                  
+                   .our_barbers {
+                       display: flex; 
+                       flex-direction: row;
+                       justify-content: space-evenly;
+                       padding-top: 2%;
+                       padding-bottom: 3%;
+                       margin-top: -3%;
+                   }
+                   .both_headings {
+                       display: flex; 
+                       flex-direction: column;
+                       justify-content: space-evenly;
+                       align-items: center;
+                   }
+                   .ourTnW {
+                     padding-top: 5%;
+                       width: 90%;
+                   }
+                   .img__wrap{
+                    width: 100%;
+                    position: relative;
+                    
+                    max-width: 300px;
+                    margin: 2%;
+                  }
+
+                   .barber_pic {
+                       width: 90%;
+                       transition: 0.5s;
+                   }
+                 
+                   .overlay {
+                    position: absolute; 
+                    bottom: 0; 
+                    background: rgb(0, 0, 0);
+                    background: rgba(0, 0, 0, 0); /* Black see-through */
+                    color: #f1f1f1; 
+                    width: 80%;
+                    transition: .5s ease;
+                    opacity:0;
+                    color: white;
+                    font-size: 40px;
+                    padding: 20px;
+                    text-align: center;
+                    font-family: roc-grotesk-wide, sans-serif;
+                  }
+                  
+                  .img__wrap:hover .overlay {
+                    opacity: 1;
+                  }
+
+
+
+                   .pictures_heading_holder { 
+                       display: flex;
+                       flex-direction: column;
+                       margin-top: 40px;
+                       margin-bottom: 40px;
+                       align-items: center;
+                   }
+                   .see_our_work {
+                       width: 30%;
+                       margin-left: 50%;
+                       margin-top: -1%;
+                    
+                       font-size: 25px;
+                   }
+
+                /* .see_our_work_text{
+                    color: #fff;
+                    font-family: roc-grotesk-wide, sans-serif;
+                 
+                    padding-bottom: 5%;
+                   width: 100%;
+                   }
+                   .see_our_work:hover{
+                    text-decoration: none;
+                   } */
+
+
+/* From uiverse.io by @alexmaracinaru */
+.cta {
+  
+  border: none;
+  background: none;
+ }
+ 
+ .cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 20px;
+  padding-right: 15px;
+ 
+ }
+ 
+ .cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+  fill: #fff;
+ }
+ 
+ .cta:hover svg {
+  transform: translateX(0);
+  
+ }
+ 
+ .cta:active svg {
+  transform: scale(0.9);
+  
+ }
+ 
+ .hover-underline-animation {
+  position: relative;
+  color: #fff;
+  padding-bottom: 20px;
+ }
+ 
+ .hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  
+ }
+ 
+ .cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+ }
+
+                   .background_pic_head{
+                       display: flex;
+                       flex-direction: column;
+                      
+                   }
+                  .Our_teamNwork {
+                     background-image: url(/images/ourteambg.png);
+                     background-size: cover;
+                     margin-top: -10%;
+                     padding-bottom: 20%;
+                  }
+                  .color {
+                      color: goldenrod;
+                      font-family: roc-grotesk-wide, sans-serif;
+                     width: 100%;
+                     text-align: center;
+                     font-size: 30px;
+                  }
+                  .border {
+                      border: 0.5px solid #FDCD68;
+                  }
+                  .get_to_know {
+                      color: white;
+                      padding: 5%;
+                      font-family: roc-grotesk-wide, sans-serif;
+                      font-size: 25px;
+                      font-weight: 300;
+                      width: 77%;
+                      text-align: center;
+                  }
+                
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 786px){
+ .mf-contact, .mf-book{
+   display: none;
+ }
+}
+
+
+
+/* MOBILE layout START */
+
+@media (max-width: 786px) {
+nav{
+  width: 100%;
+}
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #000;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  .nav-l{
+    float: none;
+  }
+
+  .dt-contact, .dt-book{
+    display: none;
+  }
+
+.mf-book{
+  border: 1px solid #fff;
+
+  padding: 0% 0% 0% 0%;
+ 
+}  
+  .header {
+
+    height: 60vh;
+    overflow-x: hidden;
+  }
+  .home-page-intro-mb{
+    padding-top: 60%;
+  }
+
+  .home-page-intro-header{
+    padding-left: 5%;
+    color: #fff;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: -15%;
+    }
+    .home-page-intro-header2{
+      padding-left: 5%;
+      color: #fff;
+      font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    width: 70%;
+    }
+    .home-page-intro-btn{
+      margin-left: 5%;
+      padding: 1%;
+      font-family: degular, sans-serif;
+      font-size: 20px;
+     
+    }
+    .serv_n_price{
+      margin-top: -5%;
+      padding-bottom: 10%;
+   
+   
+    }
+    .brs{
+      flex-direction: column;
+    }
+    .serv_n_price_header{
+      font-size: 20px;
+    }
+    .slidenav_item{
+font-size: 20px;
+padding-right: 30%;
+    }
+    .cta span {
+      font-size: 15px;
+    }
+    .see_our_work{
+      width: 100%;
+      margin-right: -30%;
+    }       
+    .img-wrap-dt{
+      display: none;
+    }
+    
+    
+    /*<---- -- | PRICE TABLES | -- ---->  */
+
+    .price_slider_holder{
+      margin-left: -1%;
+                     width: 100%; 
+                     margin-bottom: -20%;
+                      }
+                   
+                  
+                    .holder {
+                   
+                        width: 100%;
+                    }
+                    .listmen_wrapper {
+                        border-radius: 25px;
+                       
+                    }
+                   
+                    .inner_part_women{
+                      flex-direction: row;
+                      width: 100%;
+                      
+                    }
+                    .barbering{
+                      margin-top: 5%;
+                      margin-bottom: 10%;
+                    }
+                    .left_side_women {
+                     flex: 40%;
+                        flex-direction: column;
+                        margin-left: -105%;
+                        
+                    }
+                    .right_side_women{
+                      flex-direction: column; 
+                      flex: 40%;
+                      margin-top: -99%;
+                   margin-left: 5%;
+                    }
+                    .brows_lashes_holder{
+                  flex-direction: row;
+                    }
+                    .price{
+                     font-size: 15px;
+                
+                    }
+                    .flex_nav_sliders{
+                      padding-bottom: 70%;
+                    }
+                    .Cuts_color_holder{
+                      flex-direction: column;
+                     margin-left: 35%;
+                     width: 80%;
+                  
+               
+                    }
+                    .cust-colors-h{
+                      width: 100%;
+                      margin-top: -50%;
+                      margin-left: 35%;
+                    }
+                    .brows_lashes_holder{
+                      margin-right: 50%;
+                      margin-left: -50%;
+                      width: 100%;
+                  
+                    }
+                    .eye-lashes-h{
+                      margin-right: 30%;
+                      margin-left: -30%;
+                      width: 100%;
+                    }
+            
+                    .price-w-l{
+                      margin-left: -7%;
+                      
+                    }
+                  
+                    .extent_price_holder{
+                     margin-left: -6%;
+                    }
+
+                    .price-header{
+                     font-size: 18px;
+                     text-align: center;
+
+                    }
+                    .left_side_men{
+                     margin-right: 10%;
+                    }
+                    .right_side_men{
+                      margin-right: 10%;
+                      margin-top: 5%;
+                    }
+                    .slid_nav {
+                     
+                     margin-left: 1%;
+                    }
+                    .pricing_pic{
+                      height: 10rem;
+                      width: 10rem;
+                    }
+                    .inner_part_men{
+                      flex-direction: column;
+                    }
+                    .listmen_wrapper{
+                    width: 100%;
+                    padding-left: 10%;
+                    }
+                    .pic_women-sec{
+                      height: 5rem;
+                    margin-left: 45%;
+                    }
+                    .color{
+                      font-size: 20px;
+                    }
+                    .get_to_know{
+                      font-size: 15px;
+                      
+                    }
+                    .see_our_work_text{
+                      font-size: 15px;
+                     
+                    }
+                    .our_barbers{
+                      margin-left: 3%;
+                    }
+                    .overlay{
+                      font-size: 15px;
+                      text-align: center;
+                    }
+.man_wrapper{
+  padding-right: 25%;
+}
+                   
+}
+/* MOBILE FIRST END  */
+
+
+/* header end  */
+
+
+
+
+/* REVIEW SECTION START */
+.review-section{
+  background-image: url(/images/paperwzbg.png);
+  width: 100%;
+  background-size: cover;
+ margin-top: -20%;
+}
+
+.elfsight-app-992edcfe-2b8c-4fcc-8572-cd3687609725{
+  padding-top: 5%;
+  font-family: roc-grotesk-wide, sans-serif;
+}
+
+.review-section-header-lines{
+  display: flex;
+  width: 90%;
+ margin-left: 5%;
+ margin-bottom: -5%;
+}
+
+.rev-lines{
+  width: 30%;
+  height: 1px;
+  border-bottom: 3px solid black;
+  text-align: center;
+
+
+}
+/* mobile section */
+@media (max-width: 786px){
+
+.review-section{
+  padding-top: 20%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER START */
+/* Mobile  First */
+
+
+.footer-section{
+
+  background-color: #1C2B2A;
+  width: 100%;
+  display: flex;
+padding-top:4%;;
+flex-direction: column;
+
+}
+
+.footer-right-side{
+ 
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+.footer-header{
+ color: goldenrod;
+ font-family:'PT', sans-serif;;
+ font-weight: bold;
+ font-size: 25px;
+ padding-left: 20px;
+ padding-top: 5px;
+margin-bottom: 3%;
+margin-top: 5%;
+}
+.footer-text{
+  font-family:'PT', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top: 5px;
+
+}
+
+.clickable:hover{
+  color: goldenrod;
+  text-decoration: none;
+}
+.footer-right-side-row1{
+  
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-right-side-row2{
+  
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-right-side-box4{
+  
+margin-bottom: 5px;
+  
+  }
+
+.fa-facebook,.fa-instagram{
+  color: #fff;
+  padding-left: 25px;
+ 
+}
+.fa{
+  color: #fff;
+}
+
+
+
+.footer-data{
+  background-color: #1C2B2A;
+  display: flex;
+  font-family:'PT', sans-serif; 
+  font-size: 10px;
+  color: #fff;
+  justify-content: space-around;
+  padding-top: 5px;
+  border-top: #fff solid 0.1px;
+
+}
+.footer-policy-terms-text{
+  color: #FFFFFF;
+}
+.footer-policy-terms-text:hover{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.mapouter
+{position:relative;text-align:right;height:305px;width:387px;}
+.gmap_canvas
+{overflow:hidden;background:none!important;height:280px;width:370px;padding-left:2%;align-items: center;}
+
+
+@media(max-width:786px){
+  .footer-right-side-box2{
+   display: none;
+     }
+}
+
+/* Desktop VERSION */
+@media (min-width: 786px){
+
+
+  .footer-section{
+   
+ flex-direction: row-reverse;
+height: 10%;
+}
+.footer-right-side{
+  flex-direction: row;
+ flex: 50%;
+}
+.footer-left-side{
+ flex: 50%;
+ padding-left: 10%;
+}
+
+.footer-right-side-box1,.footer-right-side-box2,.footer-right-side-box3,.footer-right-side-box4{
+  flex: 25%;
+  
+  }
+
+.footer-text{
+margin: 16px;
+}
+.footer-right-side-box3{
+  margin-top: 4%;
+}
+.footer-right-side-box4{
+  margin-top: 4%;
+}
+
+iframe{
+  height: 215px;
+ 
+}
+.mapouter{
+  width: 350px;
+}
+
+
+}
+
+
+/* FOOTER END */
+/* ...........INDEX PAGE END............ */
+
+
+
+
+
+
+
+/* ..............gallery page start............ */
+/* header section */
+/* Mobile first */
+
+/* our gallery heading and lines */
+.wrapper2{
+  width: 100%;
+  height:40vh;
+  background: url(/images/book-banner.jpg)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+
+.gallery-page-header-lines{
+  display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ }
+ .gallery-page-lines{
+ border-bottom: #fff solid 2px;
+ width: 15%;
+ padding-top: 35%;
+ }
+ .gallery-page-header{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  padding-top: 87%;
+  }
+
+/* paper tear and Degular Display Black headline - talking hair text  */
+
+.paper{
+  background-image: url(/images/paper.png);
+       width: 100%;
+  background-size: cover;
+ margin-top: -18%;
+ margin-bottom: -10%;
+ z-index: 4;
+}
+.green-paper{
+  background-image: url(/images/greenpaper.png);
+  width: 100%;
+  background-size: cover;
+  margin-top: -20%;
+  padding-top: 20%;
+}
+.gal-heading {
+padding: 20% 5% 20% 5%;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-size: 20px;
+  width: 80%;
+}
+
+ /*  meet our team - lines and heading  */
+ .our-team-section{
+   background-image: url(/images/bg.jpg);
+   background-size: cover;
+
+
+background-position:top;
+  padding-top: 10%;
+ }
+  .gallery-page-header-lines-b{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+ padding-top: 5%;
+ padding-bottom: 2%;
+   }
+  .gallery-page-lines-b{
+    border-bottom: rgb(31, 31, 31) solid 2px;
+    width: 15%;
+    padding-top: 5%;
+    
+    }
+
+.gallery-page-header-b{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(22, 22, 22);
+  padding-top: 17%;
+  
+  }
+  .g-img-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: baseline;
+    padding: 0;
+    background-image: url(/images/ourteambgdown.png);
+    background-size: cover;
+    padding-bottom: 25%;
+    margin-bottom: -30%;
+  }
+  .work-img1{
+    width: 60%;
+    margin-left: 40%;
+    padding-top: 11%;
+  }
+.work-img2{
+  width: 55%;
+margin-top: -20%;
+}
+.work-img3{
+ width: 50%;
+ margin-left: 64%; 
+ margin-top:-34% ;
+}
+.work-img4{
+  width: 50%;
+  margin-left: 2%;
+  margin-top:-40% ;
+}
+.work-img5{
+  width: 70%;
+padding-bottom: 5%;
+margin-top: -74%;
+
+}
+
+.work-img6{
+  margin-left: 111%;
+  width: 80%;
+margin-top: 20%;
+}
+
+.follow-us-img{
+  height: 5rem;
+  padding-left: 69%;
+  margin-top: -20%;
+}
+.follow-us-text{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 300;
+  color: #88A09E;
+  padding-left: 3%;
+ font-size: 15px;
+}
+.follow-us-text1{
+font-weight: 800;
+color: #88A09E;
+
+}
+.follow-us-text1:hover{
+  text-decoration: none;
+  color: #88A09E;
+}
+.follow-us-text2{
+  color: #88A09E;
+  text-decoration: underline;
+}
+.staff-img{
+  width: 80%;
+
+}
+.staff-name-para{
+width: 80%;
+font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 300;
+  margin-bottom: 10%;
+}
+.staff-name{
+  margin-top: 2%;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 800;
+}
+/* flexbox container of staff people */
+.flex {
+
+ margin-top: 5%;
+ margin-left: 18%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: baseline;
+
+  }
+  
+  /* flexbox container of the text under the staff */
+  .flex-in {
+  padding-top: 1%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: baseline;
+  }
+
+  .paper_sec_wrapper{
+    display:flex ;
+    flex-direction:column ;
+  }
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+  .our-team-section{
+    padding-top: 20%;
+  }
+  .gallery-page-header{
+font-size: 25px;
+margin-top: -18%;
+  }
+.gallery-page-lines{
+width: 25%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: -25%;
+}
+
+.paper{
+ 
+ margin-bottom: -3%; 
+ margin-top: -4%;
+}
+
+.gal-heading{
+  padding: 10% 5% 10% 5%;
+  font-size: 40px;
+}
+
+.work-img1{
+  width: 80%;
+  padding-top: 10%;
+}
+.work-img2 {
+  width: 80%;
+ margin-left: -250%;
+ margin-top: 64%;
+}
+.work-img3{
+  width: 90%;
+ margin-left:330% ;
+  margin-top: -150%;
+}
+
+.work-img4{
+  width: 70%;
+margin-left: -20%;
+margin-top: 10%;
+height: 70%;
+}
+
+.work-img5{
+  width: 90%;
+  margin-left: 200%;
+  margin-top:-110%;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+}
+.image6{
+  display: none;
+}
+.follow-us-img{
+  height: 10rem;
+  padding-left: 80%;
+}
+.follow-us-text{
+  margin-top: 2%;
+  font-size: 25px;
+  width: 100%;
+}
+
+/* meet our team section */
+
+.flex{
+  flex-direction: row;
+ width: 100%;
+margin-left: -.6%;
+
+}
+.flex-sub{
+width: 20%;
+
+}
+.staff-img {
+  
+  width: 100%;
+}
+.staff-name-para{
+  width: 100%;
+}
+.gallery-page-lines-b{
+  width: 25%;
+  margin-left: 5%;
+margin-right: 5%;
+margin-top: -3%;
+}
+
+.gallery-page-header-b{
+  font-size: 25px;
+}
+
+}
+
+
+
+
+
+
+
+/* ................gallery page end...............
+
+
+
+
+
+
+
+
+
+
+
+/* ...............Book-page-1-start......... */
+
+/* header-section start */
+/* mobile first */
+.wrapper{
+  width: 100%;
+  height:35vh;
+  background: url(/images/book-banner.jpg)
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.book-page-header-lines{
+ display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.book-page-lines{
+border-bottom: #fff solid 2px;
+width: 15%;
+padding-top: 33%;
+}
+
+
+  
+.book-page-header{
+font-family: roc-grotesk-wide, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 20px;
+text-align: center;
+color: #fff;
+padding-top: 66%;
+}
+
+.book-page-content{
+background-color:#F9FAFA;
+margin-top: -8.97%;
+margin-bottom: -4.6%;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+ 
+ 
+
+  .book-page-header{
+font-size: 25px;
+margin-top: -8%;
+  }
+.book-page-lines{
+width: 25%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: -23%;
+}
+
+}
+/* header-section end */
+
+
+/* process icon section start */
+/* MOBILE FIRST */
+.book-head-icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+ padding-left: 11%;
+  margin-top: 9%;
+  padding-top: 1%;
+}
+.book-icons-header{
+  font-size: 10px;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family:'PT', sans-serif;
+}
+.book-head-icons-line{
+  border-bottom: 2px goldenrod solid;
+  width: 10%;  
+}
+
+/* intro text section */
+.book-intro-text-section{
+margin: 5%;
+}
+
+.book-intro-text{
+  font-family:'PT', sans-serif;;
+  font-size: 20px;
+  
+}
+/* From uiverse.io by @satyamchaudharydev */
+.booking-ctn-btn {
+  --primary-color: #111;
+  --secondary-color: #fff;
+  --hover-color: #111;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+  font-family: roc-grotesk-wide, sans-serif;
+  
+}
+
+.booking-ctn-btn .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-ctn-btn .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+.booking-ctn-btn .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.booking-ctn-btn:hover {
+  background-color: var(--hover-color);
+  text-decoration: none;
+  color: #fff;
+}
+
+.booking-ctn-btn:hover .arrow {
+  background: var(--secondary-color);
+}
+
+.booking-ctn-btn:hover .arrow:before {
+  right: 0;
+}
+
+   
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+  
+  .book-head-icons{
+    padding-left: 18%;
+  }
+  
+  .book-icons-header{
+    font-size: 20px;
+   
+    font-family:'PT', sans-serif;
+    
+  }
+
+
+  .book-head-icons-line{
+width: 20%;
+  }
+  .iconify{
+    font-size: 25px;
+  }
+  .book-intro-text-section{
+margin-top: 3%;
+margin-left: 10%;
+    }
+    
+    .book-intro-text{
+      font-family:'PT', sans-serif;;
+      font-size: 30px;
+   
+    }   
+
+}
+
+
+/* CHECKLIST SECTION */
+/* MOBILE FIRST */
+.book-page-flexbox{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+  
+}
+.container { 
+ 
+flex: 60%;
+  height: 400px; 
+  overflow-y: scroll;
+  padding: 1%;
+  margin-bottom: 5%;
+  font-family: roc-grotesk-wide, sans-serif;
+}
+.summaryandcontinue{
+  display: flex;
+  flex-direction: column;
+  flex: 40%;
+  padding-left: 15%;
+
+}
+.summarybox{
+  border:2px solid #ccc;
+  box-shadow:2px 2px #fff ;
+  flex: 40%;
+  margin-bottom: 20%;
+  background-color: #FFFFFF;
+  width: 80%;
+  
+ 
+}
+.summary-box-header{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ text-align: center;
+ align-items: center;
+ font-size: 20px;
+ padding: 2%;
+ color: #767676;
+}
+.summary-box-para{
+  color: #767676;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:15px ;
+  text-align: center;
+}
+.summary-box-price{
+  color: #000;
+  border-top: 1px solid #767676;
+  width: 70%;
+  margin-left: 14%;
+}
+.continuebox{
+  flex: 40%;
+margin-left: 10%;
+  font-family: roc-grotesk-wide, sans-serif;
+  width: 60%;
+  text-align: center;
+  padding: 3%;
+ margin-bottom: 5%;
+}
+/* .continuebtn{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background-color: #3C3C3C;
+  padding:5% 10% 5% 10%;
+} */
+/* .continuebtn:hover{
+  text-decoration: none;
+  color: goldenrod;
+} */
+
+
+
+.input-text-bor input:checked ~ .checkmark {
+  background-color: #000;
+}
+
+
+
+
+
+.slist{
+  font-family: roc-grotesk-wide, sans-serif;
+  
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 3%;
+  margin-bottom: 1%;
+ 
+  border-radius: 50%;
+ 
+  }
+
+
+  .input-text-bor{
+    border: 2px solid goldenrod;
+    border-radius: 2%;
+    padding-left: 2%;
+  
+    font-size: 15px;
+   
+  }
+  .input-text-bor input {
+    height: 20px;
+    width: 20px;
+background-color: #ccc;
+
+  }
+  input:checked ~ .input-text-bor{
+    background-color: #000;
+    
+  }
+
+  .goldenrodBackground{
+    background-color:goldenrod;
+    }
+
+    
+ 
+  
+
+.goldenrod{
+  background-color: goldenrod;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+  .book-page-flexbox{
+    flex-direction: row;
+  }
+  .container{
+    flex: 50%;
+  }
+  .summaryandcontinue{
+    flex: 50%;
+    margin-top: -10%;
+  }
+.continuebox{
+max-height: 17%;
+  font-size: 20px;
+  padding-top: 5%;
+
+}
+.continuebtn{
+  text-align: center;
+}
+}
+
+/* ...............Book-page-1-end......... */
+
+
+
+
+
+
+
+
+
+
+
+/* ...............Book-page-2-start......... */
+/* MOBILE FIRST */
+.book-page2-content{
+  background-color:#F9FAFA ;
+  margin-top: -10%;
+  margin-bottom: -5%;
+}
+.hairdresser-time-date{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hairdresserbox{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.a:hover{
+  text-decoration: none;
+}
+
+.img-pick-label{
+  display: flex;
+  flex-direction: row;
+  border:1px solid #fff ;
+  border-radius: 3%;
+  background-color: #fff;
+  width: 140%;
+  margin-left: -20%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 5%;
+  }
+  
+  button:focus{
+    background-color:#000;
+    color: goldenrod;
+   }
+
+.img-picker{
+width: 3.5rem;
+height: 3.5rem;
+margin-left: 5%;
+}
+
+.hairdressername{
+  width: 30%;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 3%;
+
+}
+.hairdresserbtn{
+  width: 30%;
+  height: 40%;
+  background-color: goldenrod;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin-right: 5%;
+  color: #000;
+  border-radius: 9px;
+}
+
+.dateandtimebox{
+  display: flex;
+justify-content: space-between;
+width: 95%;
+margin: 3%;
+}
+.datebox{
+border: 2px solid #fff;
+background-color: #fff;
+border-radius: 3%;
+font-family: roc-grotesk-wide, sans-serif;
+padding: 3%;
+width: 40%;
+}
+.timebox{
+  border: 2px solid #fff;
+background-color: #fff;
+border-radius: 3%;
+  font-family: roc-grotesk-wide, sans-serif;
+  padding: 3%;
+  width: 40%;
+}
+.datime-text{
+  font-size: 15px;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+  
+
+  
+  .summaryandcontinue{
+    width: 30%;
+  }
+  .hairdresser-time-date{
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -2%;
+    margin-bottom: 2%;
+
+  }
+.hairdresserbox{
+flex-direction: column;
+padding-left: 10%;
+width: 50%;
+}
+
+.dateandtimebox{
+
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+
+}
+.img-picker{
+width: 5rem;
+height: 5rem;
+
+}
+
+
+.img-pick-label{
+  margin: 2%;
+
+
+}
+.datebox{
+  padding-right: 100%;
+  margin-bottom: 5%;
+
+}
+.timebox{
+  padding-right: 100%;
+}
+
+
+}
+
+
+
+/* ...............Book-page-2-end......... */
+
+
+
+
+
+
+
+
+
+
+/* ...............Book-page-3-start......... */
+/* MOBILE FIRST */
+/* From uiverse.io by @alexruix */
+.book3-page-content{
+  background-color:#F9FAFA;
+  margin-top: -9%;
+}
+
+
+.book3-flexbox{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+.customerform{
+  display: flex;
+  flex-direction: column;
+
+ align-items: center;
+ margin-bottom: 10%;
+}
+
+.customerctc {
+  line-height: 28px;
+  border: 2px solid transparent;
+  border-bottom-color: #777;
+  padding: .2rem 0;
+  outline: none;
+  background-color: transparent;
+  color: #0d0c22;
+  transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin: 3%;
+ }
+ 
+ .customerctc:focus, .customerctc:hover {
+  outline: none;
+  padding: .2rem 1rem;
+  border-radius: 1rem;
+  border-color: #7a9cc6;
+ }
+ 
+ .customerctc::placeholder {
+  color: #777;
+ }
+ 
+ .customerctc:focus::placeholder {
+  opacity: 0;
+  transition: opacity .3s;
+ }
+ 
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+
+.book3-flexbox{
+flex-direction: row;
+width: 90%;
+}
+
+.customerctc{
+  width: 60%;
+}  
+
+.customerform{
+  width: 60%;
+}
+
+}
+
+/* ...............Book-page-3-finish......... */
+
+
+/* ...........BOOK-PAGE-4-STARTS............. */
+/* .....Mobile first layout..... */
+.book4-body{
+background-color: #F9FAFA;
+padding-top: 6%;
+padding-bottom: 6%;
+}
+.book4-content{
+  margin: 1% 10% 5% 10%;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  text-align: center;
+
+}
+.book-head-icons4{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+margin-bottom: 10%;
+margin-top: 3%;
+padding-top: 5%;
+border-bottom: 1px solid #333333;
+margin-left: 8%;
+width: 85%;
+padding-bottom: 5%;
+}
+
+.icon-book4 {
+margin-left: 10%;
+}
+
+.book-icons-header4{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  color: #448A37;
+margin-bottom: -1%;
+margin-left: 3%;
+
+}
+
+.book4-flex-box{
+
+  border-bottom: 1px solid #333333;
+  margin-left: 8%;
+  width: 85%;
+  padding: 5% 0 5% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.book4-flex-box-{
+  border-bottom: none;
+}
+
+.book4-sub-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.book4-text1{
+  font-family: roc-grotesk-wide, sans-serif;
+  font-size: 10px;
+  width: 70%;
+}
+.fa-tag4{
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
+.book4-social{
+  margin-top:5%;
+  width: 90%;
+}
+.book4-contact{
+  font-size: 13px;
+  font-family: roc-grotesk-wide, sans-serif;
+  margin-top: 2%;
+
+}
+.book4-text2{
+  font-family: roc-grotesk-wide, sans-serif;
+  color: #939393;
+  font-size: 8px;
+}
+.book4-text3{
+  font-family: roc-grotesk-wide, sans-serif;
+  color: #050101;
+  font-size: 11px;
+}
+.book4-btn1{
+  color:#F0CA75;
+  font-family: roc-grotesk-wide, sans-serif;
+  padding: 2% 8% 2% 2%;
+  background-color: white;
+  cursor: pointer;
+  border-color: #F0CA75;
+  border-radius: 9px;
+  border-style: solid;
+  font-size: 15px;
+}
+.book4-text4{
+  font-family: roc-grotesk-wide, sans-serif;
+  color: #939393;
+  font-size: 14px;
+}
+.book4-text5{
+  font-family: roc-grotesk-wide, sans-serif;
+  color: #050101;
+  font-size: 16px;
+}
+.book4-btn2{
+  color:#C54841;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-size: 15px;
+  padding: 2% 8% 2% 2%;
+  background-color: white;
+  cursor: pointer;
+  border-color: #C54841;
+  border-radius: 9px;
+  border-style: solid; 
+}
+
+
+
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+.book-icons-header4{
+  font-size: 25px;
+  margin-left: 5%;
+}
+.icon-book4{
+  margin-left: 30%;
+}
+.book4-text1{
+  width: 100%;
+  font-size: 18px;
+ text-align: left;
+ margin-left: 2%;
+}
+
+.book-flex-box4{
+  flex-direction: row;
+}
+
+
+.book4-body{
+  margin-top: -12%;
+}
+.img-book4{
+  margin-top: -12%;
+}
+.book4-social{
+width: 40%;
+margin-left: 45%;
+margin-top: -10%;
+}
+.book4-contact{
+  font-size: 15px;
+}
+.multi-icon{
+  font-size: 20px;
+}
+.book4-text2{
+font-size: 12px;
+}
+.book4-text3{
+  font-size: 17px;
+  width: 100%;
+}
+.book4-text4{
+  font-size: 15px; 
+}
+.book4-text5{
+  font-size: 18px;
+}
+.book4-btn1{
+font-size: 20px;
+
+}
+.book4-btn2{
+  font-size: 20px;
+  padding-bottom: -10px;
+}
+.btn-flex{
+  width: 40%;
+  height: 90%;
+}
+.date-box4{
+margin-left: 15%;
+width: 75%;
+}
+.service-box4{
+  margin-left: 75%;
+  width: 70%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ...........BOOK-PAGE-4-ENDS............. */
+
+
+/* error404 page  */
+/* Mobile first  */
+.error-header{
+font-size: 40px;
+text-align: center;
+margin-bottom: 20%;
+font-family: roc-grotesk-wide, sans-serif;}
+
+.error-header2{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20%;
+  font-family: roc-grotesk-wide, sans-serif;
+}
+.error{
+  align-items: center;
+}
+
+.errorbox{
+  margin-left: 7%;
+}
+.img-error{
+width: 50%;
+align-items: center;
+margin-left: 25%;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 786px){
+.error-header{
+font-size: 95px;
+margin-bottom: 1%;
+}
+.error-header2{
+font-size: 65px;
+margin-bottom: 1%;
+}
+}
+
+
+             
+
+
+
